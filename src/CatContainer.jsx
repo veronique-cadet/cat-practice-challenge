@@ -10,8 +10,9 @@ export default function CatContainer() {
       <h1 className="title">MY FAVORITE CATS 🤍</h1>
       <SearchBar />
       <DropDown />
+      <button className="tog">Hide or ShowForm</button>
       <NewCatForm />
-      {/* {put card here} */}
+      {/* {put cats here} */}
     </div>
   );
 }
