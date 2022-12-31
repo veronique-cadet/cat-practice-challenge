@@ -16,3 +16,4 @@ So for this we should:
 5. Look for cats by breed in the dropdown
 
 You can just do a search and dropdown seperately to know you can do both. Remember to be able to filter both you would need to filter the filter, but you can just practice one or the other or do both if you feel like it!
+
