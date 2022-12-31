@@ -10,7 +10,7 @@ Cool!
 So for this we should:
 
 1. Render all of the cats on the page
-2. Post a new cat
+2. Post a new cat, but first I want you to hide the form as well!
 3. Delete a cat using the angry cat emoji button
 4. Search a cat name!
 5. Look for cats by breed in the dropdown
