@@ -7,7 +7,7 @@ import SearchBar from "./SearchBar";
 export default function CatContainer({ cats, setCats }) {
   const [hidden, setIsHidden] = useState(false);
   const [search, setSearch] = useState("");
-  const [filterByBreed, setFilterByBreed] = useState("");
+  const [filterByBreed, setFilterByBreed] = useState("all");
 
   const searchedCats = cats.filter((cat) => {
     return cat.name.toLowerCase().includes(search.toLowerCase());
@@ -31,7 +31,7 @@ export default function CatContainer({ cats, setCats }) {
       />
     );
   });
-  
+
   return (
     <div>
       <h1 className="title">MY FAVORITE CATS 🤍</h1>
